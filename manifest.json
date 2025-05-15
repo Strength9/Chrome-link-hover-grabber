@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Tab URL Exporter",
+  "version": "1.0",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
